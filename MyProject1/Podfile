@@ -1,0 +1,12 @@
+platform :ios, '7.0'
+
+target 'MyProject1' do
+
+pod 'AFNetworking', '~> 2.5'
+pod 'Parse', '~> 1.7'
+end
+
+target 'MyProject1Tests' do
+
+end
+

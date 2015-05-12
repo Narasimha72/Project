@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RegistrationViewController.h"
 
 @interface ViewController : UIViewController
 
+-(IBAction)pressSignUpButton:(id)sender;
+
+@property(nonatomic,strong) RegistrationViewController *registrationController;
 
 @end
 
